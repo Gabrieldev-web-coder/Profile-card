@@ -4,7 +4,8 @@
 body{
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: 121% 172% , -27% -61%;
+    background-attachment: fixed;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
     background-color: hsl(185, 75%, 39%) ;
     display: flex;
     justify-content: center;
@@ -102,49 +103,5 @@ body{
 
 @media screen and (min-width:320px) and (max-width:375px){
     .Profile_card{max-width: 280px;}
-    .attribution{font-size: 10px; margin: 1rem 0rem 0rem 0rem;}
-    body{background-position: 116% 164%,-27% -61%;}   
+    .attribution{font-size: 10px; margin: 1rem 0rem 0rem 0rem;}   
 }
-
-@media screen and (min-width:425px){
-    .attribution{font-size: 12px;}
-    body{background-position: 135% 149%,-38% -70%;}
-}
-
-/** I KNOW THAT THIS IS WRONG AND SUCKS, 
-but I really couldn't think of anything better PLS If you know, write me how **/
-
-
-@media screen and (min-width:576px){body{background-position: 171% 149%,-48% -92%;}}
-
-@media screen and (min-width:650px){body{background-position: 204% 149%,-77% -91%;}}
-
-@media screen and (min-width:719px){body{background-position: 224% 165%,-105% -97%;}}
-
-@media screen and (min-width:768px) and (max-width:1024px){body{background-position:(257% 165%,-149% -95%);}}
-
-@media screen and (min-width:839px){body{background-position: 357% 165%,-243% -93%;}}
-
-@media screen and (min-width:882px){body{background-position: 503% 165%,-410% -93%;}}
-
-@media screen and (min-width:910px){body{background-position: 717% 165%,-575% -93%;}}
-
-@media screen and (min-width:910px){body{background-position: 721% 165%,-562% -93%;}}
-
-@media screen and (min-width:933px){body{background-position:996% 165%,-841% -93%;}}
-
-@media screen and (min-width:944px){body{background-position:1452% 165%,-1180% -93%;}}
-
-@media screen and (min-width:959px){body{background-position:2452% 165%,-2180% -93%;}}
-
-@media screen and (min-width:965px){body{background-position:3452% 165%,-3180% -93%;}}
-
-@media screen and (min-width:971px){body{background-position:6452% 165%,-6180% -93%;}}
-
-@media screen and (min-width:976px){body{background-position:20452% 165%,-20180% -93%;}}
-
-@media screen and (min-width:1024px){body{background-position: -922% 165%,949% -87%;}}
-
-@media screen and (min-width:1366px){body{background-position:-66% 165%, 173% -87%;}}
-
-@media screen and (min-width:1440px){body{background-position:-48% 147%,685px -77%;}}
