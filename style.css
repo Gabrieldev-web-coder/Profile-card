@@ -75,11 +75,6 @@ body{
     font-size: 12px;
 }
 
-/**Attribution**/
-
-.attribution { font-size: 10px; text-align: center; margin: 1rem; color: white;}
-.attribution a { color: hsl(228, 45%, 44%); }
-
 /** Svg manipulation **/
 
 #shape_top, #shape_bottom{
